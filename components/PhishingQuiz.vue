@@ -9,11 +9,11 @@
 
 			<div class="space-x-10">
 				<Button
-					text="Este Phising"
+					text="Este Phishing"
 					@click="validate(true, quizzes[index])"
 				/>
 				<Button
-					text="Nu Este Phising"
+					text="Nu Este Phishing"
 					@click="validate(false, quizzes[index])"
 				/>
 				<Button
@@ -31,11 +31,10 @@
 </template>
 
 <script setup>
-	import { reactive } from "vue";
-	import { phisingQuiz } from "../data/phisingQuiz";
+	import { phishingQuiz } from "../data/phishingQuiz";
 
 	const quizzes = reactive(
-		shuffle(phisingQuiz.map((q) => ({ ...q, result: null })))
+		shuffle(phishingQuiz.map((q) => ({ ...q, result: null })))
 	);
 
 	function validate(answ, quiz) {

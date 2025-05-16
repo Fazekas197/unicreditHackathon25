@@ -7,7 +7,7 @@
 			</NuxtLink>
 		</div>
 		<div class="text-black flex gap-x-10">
-			<NuxtLink to="/phising" class="flex flex-col items-center gap-y-2">
+			<NuxtLink to="/phishing" class="flex flex-col items-center gap-y-2">
 				<img src="/icons/diamond.svg" class="h-6" alt="diamond icon" />
 				<p class="font-extrabold">ANTI-FRAUDĂ</p>
 			</NuxtLink>

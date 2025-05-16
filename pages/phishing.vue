@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<PhisingQuiz />
+		<PhishingQuiz />
 	</div>
 </template>
 

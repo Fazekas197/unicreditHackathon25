@@ -1,4 +1,4 @@
-export const phisingQuiz = [
+export const phishingQuiz = [
 	{
 		test: "/images/phising4.png",
 		answear: true,
