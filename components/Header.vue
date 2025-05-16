@@ -7,15 +7,18 @@
 			</NuxtLink>
 		</div>
 		<div class="text-black flex gap-x-10">
-			<NuxtLink to="/" class="flex flex-col items-center gap-y-2">
+			<NuxtLink to="/phising" class="flex flex-col items-center gap-y-2">
 				<img src="/icons/diamond.svg" class="h-6" alt="diamond icon" />
 				<p class="font-extrabold">ANTI-FRAUDĂ</p>
 			</NuxtLink>
-			<NuxtLink to="/" class="flex flex-col items-center gap-y-2">
+			<NuxtLink
+				to="/mobileBanking"
+				class="flex flex-col items-center gap-y-2"
+			>
 				<img src="/icons/mobile.svg" class="h-6" alt="diamond icon" />
 				<p class="font-extrabold">MOBILE BANKING</p>
 			</NuxtLink>
-			<NuxtLink to="/" class="flex flex-col items-center gap-y-2">
+			<NuxtLink to="/edFin" class="flex flex-col items-center gap-y-2">
 				<img src="/icons/money.svg" class="h-6" alt="diamond icon" />
 				<p class="font-extrabold">EDUCAȚIE FINANCIARĂ</p>
 			</NuxtLink>
