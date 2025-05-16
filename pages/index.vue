@@ -1,5 +1,3 @@
 <template>
-	<div>
-		<PhisingQuiz />
-	</div>
+	<div></div>
 </template>
