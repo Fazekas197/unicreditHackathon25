@@ -1,7 +1,11 @@
 <template>
 	<div class="space-y-10">
 		<div>
-			<img :src="quizzes[index].test" alt="poza cu phising" />
+			<img
+				:src="quizzes[index].test"
+				alt="poza cu phising"
+				class="w-3/12"
+			/>
 
 			<div class="space-x-10">
 				<Button
@@ -12,9 +16,11 @@
 					text="Nu Este Phising"
 					@click="validate(false, quizzes[index])"
 				/>
-				<div v-if="quizzes[index].result">
-					<Button text="Next" @click="next" />
-				</div>
+				<Button
+					v-if="quizzes[index].result"
+					text="Next"
+					@click="next(quizzes[index])"
+				/>
 			</div>
 
 			<div v-if="quizzes[index].result" class="mt-2">
@@ -39,11 +45,12 @@
 	}
 
 	const index = ref(0);
-	function next() {
+	function next(quiz) {
 		if (index.value >= quizzes.length - 1) {
 			index.value = 0;
 		} else {
 			index.value++;
 		}
+		quiz.result = null;
 	}
 </script>

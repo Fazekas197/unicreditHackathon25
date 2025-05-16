@@ -1,26 +1,36 @@
 export const phisingQuiz = [
 	{
-		test: "/images/phising1.png",
-		answear: false,
+		test: "/images/phising4.png",
+		answear: true,
 		explanation:
-			"Acest link NU aparține UniCredit! Observi domeniul dubios? E un semnal clar de phishing.",
+			"Atașamentul PDF poate conține viruși sau linkuri către formulare false. Banca NU trimite documente sensibile fără să te autentifici în platforma oficială.",
+	},
+	{
+		test: "/images/phising3.jpg",
+		answear: true,
+		explanation:
+			"Tactici de urgență și frică. DomeniuL nu este un domeniu oficial UniCredit. Orice mesaj care te trimite pe un site pentru a „verifica identitatea” sau a introduce date personale este suspect.",
+	},
+	{
+		test: "/images/phising1.png",
+		answear: true,
+		explanation:
+			"Design copiat: Imită perfect site-ul oficial pentru a păcăli utilizatorii. Furt de date: Orice date introduse aici ajung la atacatori, nu la bancă.  Nu accesa linkuri din mesaje: Intră doar pe site-ul oficial (unicredit.ro)",
 	},
 	{
 		test: "/images/phising2.png",
-		answear: false,
-		explanation:
-			"Link-ul lung și complicat e o păcăleală. Domeniul NU e oficial. E un SMS clasic de phishing.",
-	},
-	{
-		test: "/images/phising3.png",
-		answear: false,
-		explanation:
-			"UniCredit nu trimite facturi prin astfel de link-uri externe. Domeniul e fals, gândit să păcălească vizual.",
-	},
-	{
-		test: "/images/phising4.jpg",
 		answear: true,
 		explanation:
-			"Acesta este un mesaj oficial de la UniCredit. E-mailul e corect, iar link-ul te duce pe site-ul nostru.",
+			"Link-ul duce spre un site ce imită UniCredit, dar nu este oficial. Tactică de urgență („Grăbește-te!”) – presiune tipică pentru fraude.  Contul nu e verificat, dar pare real pentru a induce în eroare",
+	},
+	{
+		test: "images/phising5.jpg",
+		answear: false,
+		explanation: "",
+	},
+	{
+		test: "images/phising6.jpeg",
+		answear: false,
+		explanation: "",
 	},
 ];
