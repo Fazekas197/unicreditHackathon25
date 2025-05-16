@@ -11,6 +11,7 @@
 @theme {
 	--font-sans: "UnicreditFont", "Arial";
 	--color-primary: #007a91;
+	--color-brand: #e2001a;
 }
 
 :root {
