@@ -4,8 +4,14 @@
 			<img :src="quizzes[index].test" alt="poza cu phising" />
 
 			<div class="space-x-10">
-				<Button text="Da" @click="validate(true, quizzes[index])" />
-				<Button text="Nu" @click="validate(false, quizzes[index])" />
+				<Button
+					text="Este Phising"
+					@click="validate(true, quizzes[index])"
+				/>
+				<Button
+					text="Nu Este Phising"
+					@click="validate(false, quizzes[index])"
+				/>
 				<div v-if="quizzes[index].result">
 					<Button text="Next" @click="next" />
 				</div>
