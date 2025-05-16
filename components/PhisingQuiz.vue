@@ -34,7 +34,9 @@
 	import { reactive } from "vue";
 	import { phisingQuiz } from "../data/phisingQuiz";
 
-	const quizzes = reactive(phisingQuiz.map((q) => ({ ...q, result: null })));
+	const quizzes = reactive(
+		shuffle(phisingQuiz.map((q) => ({ ...q, result: null })))
+	);
 
 	function validate(answ, quiz) {
 		if (answ === quiz.answear) {
@@ -55,5 +57,13 @@
 			index.value++;
 		}
 		quiz.result = null;
+	}
+
+	function shuffle(array) {
+		for (let i = array.length - 1; i > 0; i--) {
+			const j = Math.floor(Math.random() * (i + 1));
+			[array[i], array[j]] = [array[j], array[i]];
+		}
+		return array;
 	}
 </script>
