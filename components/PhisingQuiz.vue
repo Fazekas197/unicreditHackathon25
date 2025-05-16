@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="space-y-10">
 		<div v-for="quiz in phisingQuiz">
 			{{ quiz.test }}
 
