@@ -1,6 +1,7 @@
 export const phisingQuiz = [
 	{
 		test: "mdaskodoasd",
-		answer: true,
+		answear: true,
+		explanation: "This is a phishing test.",
 	},
 ];
