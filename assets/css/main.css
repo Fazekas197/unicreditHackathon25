@@ -1,9 +1,15 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
 
+@font-face {
+	font-family: "UnicreditFont";
+	src: url("/fonts/unicredit-regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
 @theme {
-	--font-sans: "Anton", sans-serif;
-	--font-secondary: "Imprima";
+	--font-sans: "UnicreditFont", "Arial";
 	--color-primary: #007a91;
 }
 
