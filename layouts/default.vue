@@ -1,6 +1,7 @@
 <template>
 	<div>
-		<h1>test layout</h1>
+		<Header />
 		<slot></slot>
+		<Footer />
 	</div>
 </template>
