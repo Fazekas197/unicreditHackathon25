@@ -39,6 +39,9 @@
 	function validate(answ, quiz) {
 		if (answ === quiz.answear) {
 			quiz.result = "✅ Corect!";
+			if (answ === false) {
+				quiz.result = `✅ Corect: ${quiz.explanation}`;
+			}
 		} else {
 			quiz.result = `❌ Gresit: ${quiz.explanation}`;
 		}
