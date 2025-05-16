@@ -1,27 +1,43 @@
 <template>
 	<div class="space-y-10">
-		<div v-for="quiz in phisingQuiz">
-			{{ quiz.test }}
+		<div>
+			<img :src="quizzes[index].test" alt="poza cu phising" />
 
 			<div class="space-x-10">
-				<UButton @click="validate(true, quiz)">Da</UButton>
-				<UButton @click="validate(false, quiz)">Nu</UButton>
+				<UButton @click="validate(true, quizzes[index])">Da</UButton>
+				<UButton @click="validate(false, quizzes[index])">Nu</UButton>
+				<div v-if="quizzes[index].result">
+					<UButton @click="next">Next</UButton>
+				</div>
+			</div>
+
+			<div v-if="quizzes[index].result" class="mt-2">
+				{{ quizzes[index].result }}
 			</div>
 		</div>
-
-		{{ result }}
 	</div>
 </template>
 
 <script setup>
+	import { reactive } from "vue";
 	import { phisingQuiz } from "../data/phisingQuiz";
 
-	const result = ref("");
+	const quizzes = reactive(phisingQuiz.map((q) => ({ ...q, result: null })));
+
 	function validate(answ, quiz) {
 		if (answ === quiz.answear) {
-			result.value = "Corect";
+			quiz.result = "✅ Corect!";
 		} else {
-			result.value = `Este gresit: ${quiz.explanation}`;
+			quiz.result = `❌ Gresit: ${quiz.explanation}`;
+		}
+	}
+
+	const index = ref(0);
+	function next() {
+		if (index.value >= quizzes.length - 1) {
+			index.value = 0;
+		} else {
+			index.value++;
 		}
 	}
 </script>
