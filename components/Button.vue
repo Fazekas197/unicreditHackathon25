@@ -1,5 +1,5 @@
 <template>
-	<UButton class="">{{ text }}</UButton>
+	<UButton class="text-lg py-3 px-5 rounded-sm">{{ text }}</UButton>
 </template>
 
 <script setup>
