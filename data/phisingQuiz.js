@@ -26,11 +26,13 @@ export const phisingQuiz = [
 	{
 		test: "images/phising5.jpg",
 		answear: false,
-		explanation: "",
+		explanation:
+			"Link oficial și sigur. Ton profesional și clar.  Date de contact reale. Nu cere informații personale sensibile",
 	},
 	{
 		test: "images/phising6.jpeg",
 		answear: false,
-		explanation: "",
+		explanation:
+			"Adresă de contact oficială. Formulare și ton profesionist.  Fără linkuri suspecte. Numere de contact reale",
 	},
 ];
