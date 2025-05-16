@@ -1,5 +1,8 @@
 <template>
-	<footer class="px-10 pt-10 pb-7 bg-blackBg text-white flex justify-between">
+	<footer
+		id="footer"
+		class="px-10 pt-10 pb-7 bg-blackBg text-white flex justify-between"
+	>
 		<div class="space-y-2.5">
 			<img src="/images/LogoWhite.svg" alt="Unicredit Logo" />
 			<p class="text-sm text-k3">
