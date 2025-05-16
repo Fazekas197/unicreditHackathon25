@@ -17,4 +17,10 @@ export const phisingQuiz = [
 		explanation:
 			"UniCredit nu trimite facturi prin astfel de link-uri externe. Domeniul e fals, gândit să păcălească vizual.",
 	},
+	{
+		test: "/images/phising4.jpg",
+		answear: true,
+		explanation:
+			"Acesta este un mesaj oficial de la UniCredit. E-mailul e corect, iar link-ul te duce pe site-ul nostru.",
+	},
 ];
