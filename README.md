@@ -1,75 +1,31 @@
-# Nuxt Minimal Starter
+# Unicredit Fintech Hackathon 2025
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Tema proiect:
 
-## Setup
+-   Crearea de tutoriale interactive pentru aplicația Mobile Banking
 
-Make sure to install dependencies:
+## Inicatii pentru rularea proiectului:
 
-```bash
-# npm
+1. Deschideti proiectul in VSCode
+2. Rulati comanda de mai jos
+
+```
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
+3. Rulati comanda de mai jos
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+```
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+4. Accesati http://localhost:3000 (e posibil ca portul sa fie diferit)
 
-Build the application for production:
+## Componenta Echipa:
 
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+-   Fazekas Cosmin
+-   Dasca Rebeca
+-   Straistaru Zlate Vlad
+-   Iacob Dragos
+-   Coneac Alexandru
+-   Zugravu Maria
