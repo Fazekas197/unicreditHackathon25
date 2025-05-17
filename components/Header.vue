@@ -1,5 +1,5 @@
 <template>
-	<header class="px-10 py-5 flex justify-between">
+	<header class="px-10 py-5 flex justify-between items-center">
 		<div>
 			<NuxtLink to="/" class="space-x-5 flex items-end">
 				<img src="/images/logo.svg" class="h-7" alt="logo Unicredit" />
