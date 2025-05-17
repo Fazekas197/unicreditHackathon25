@@ -11,11 +11,11 @@
 					banii mai bine — indiferent de vârstă sau nivel de
 					cunoștințe."
 			btn-text="Explorează acum"
-			btn-link=""
+			btn-link="#start"
 		/>
 
 		<!-- TUTORIAL 1 -->
-		<section class="flex gap-x-10 mx-24 my-24">
+		<section id="start" class="flex gap-x-10 px-24 py-24">
 			<div>
 				<img
 					src="/images/phishingImg.png"
