@@ -150,5 +150,12 @@
 			</div>
 			<USeparator class="my-5" />
 		</section>
+
+		<Hero
+			title="La UniCredit, creditele sunt mai accesibile decât ai crede"
+			btn-link="https://www.unicredit.ro/ro/persoane-fizice.html#credite"
+			btn-text="Crează-ți un credit acum"
+			bg-img="/images/genericBg.png"
+		/>
 	</div>
 </template>
