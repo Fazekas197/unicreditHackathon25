@@ -88,5 +88,40 @@
 				/>
 			</div>
 		</section>
+
+		<!-- TUTORIAL 3 -->
+		<section class="flex gap-x-10 mx-24 my-24">
+			<div>
+				<img
+					src="/images/edFinImg.png"
+					alt="Atac Hacker"
+					class="w-full"
+				/>
+			</div>
+			<div class="space-y-3 w-2/5">
+				<h1 class="text-3xl">
+					Cum să înțelegi creditele și să le folosești în avantajul
+					tău?
+				</h1>
+				<h3 class="text-lg font-extrabold">
+					Alege creditul care ți se potrivește și gestionează-ți
+					finanțele cu încredere!
+				</h3>
+				<p class="text-lg">
+					În acest tutorial vei învăța bazele creditelor: ce înseamnă
+					un credit, cum funcționează și care sunt principalele tipuri
+					– de nevoi personale, ipotecare și de refinanțare. Vei găsi
+					explicații clare, exemple practice și sfaturi utile care te
+					vor ajuta să iei decizii financiare inteligente.
+				</p>
+				<NuxtLink to="/edFin">
+					<Button
+						second-type="true"
+						text="Învață acum"
+						class="mt-5"
+					/>
+				</NuxtLink>
+			</div>
+		</section>
 	</div>
 </template>
