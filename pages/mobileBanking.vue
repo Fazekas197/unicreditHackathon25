@@ -11,9 +11,9 @@
 		/>
 	</div>
 
-	<section class="flex gap-x-10 px-24 py-24">
+	<section class="flex gap-x-10 px-24 py-24 justify-between">
 		<div>
-			<img src="/images/house.png" alt="Atac Hacker" class="w-full" />
+			<img src="/images/mbApp.png" alt="Atac Hacker" class="w-full" />
 		</div>
 		<div class="space-y-3 w-2/5">
 			<h1 class="text-3xl">
