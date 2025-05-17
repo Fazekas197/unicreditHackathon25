@@ -14,18 +14,32 @@
 						administrare
 					</p>
 					<NuxtLink to="/">
-						<Button text="APLICĂ ONLINE" class="mt-5" />
+						<a
+							target="_blank"
+							href="https://www.unicredit.ro/ro/persoane-fizice/application-forms/formular-new-mobile-banking.html"
+						>
+							<Button text="APLICĂ ONLINE" class="mt-5" />
+						</a>
 					</NuxtLink>
 				</div>
 			</div>
 			<div class="flex flex-col gap-y-1 space-y-5">
-				<a href="">
+				<a
+					href="https://apps.apple.com/ro/app/unicredit-ro-mobile-banking/id555013028?l=ro"
+					target="_blank"
+				>
 					<img src="/icons/image.png" alt="App Store" />
 				</a>
-				<a href="">
+				<a
+					href="https://appgallery.huawei.com/app/C106928437"
+					target="_blank"
+				>
 					<img src="/icons/image-1.png" alt="App Gallery" />
 				</a>
-				<a href="">
+				<a
+					href="https://play.google.com/store/apps/details?id=hr.asseco.android.jimba.mUCI.ro"
+					target="_blank"
+				>
 					<img src="/icons/image-2.png" alt="Google Play" />
 				</a>
 			</div>
