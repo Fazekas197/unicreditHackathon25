@@ -4,7 +4,7 @@
 
 -   Crearea de tutoriale interactive pentru aplicația Mobile Banking
 
-## Inicatii pentru rularea proiectului:
+## Indicatii pentru rularea proiectului:
 
 1. Deschideti proiectul in VSCode
 2. Rulati comanda de mai jos
