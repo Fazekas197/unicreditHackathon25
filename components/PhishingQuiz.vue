@@ -44,10 +44,8 @@
 		<p class="text-2xl">✅ Ai terminat testul!</p>
 		<p class="text-xl">
 			Ai
-			{{
-				Math.round(((quizzes.length - score) / quizzes.length) * 100)
-			}}
-			% sa fi păcălit
+			{{ Math.round(((quizzes.length - score) / quizzes.length) * 100) }}
+			% șanse să fii păcălit
 		</p>
 		<Button text="Reîncearcă testul" @click="restart" />
 	</div>
