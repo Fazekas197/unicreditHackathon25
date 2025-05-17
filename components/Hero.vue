@@ -5,6 +5,9 @@
 	>
 		<img :src="bgImg" :alt="altImg" class="w-full" />
 		<div class="text-white absolute top-0 mx-24 my-24 space-y-9 w-2/5">
+			<NuxtLink v-if="tutorial" to="/" class="mb-10 block text-k3">
+				ÎNAPOI LA TUTORIALE
+			</NuxtLink>
 			<h1 class="text-4xl font-extrabold">
 				{{ title }}
 			</h1>
@@ -27,5 +30,6 @@
 		"btnLink",
 		"bgImg",
 		"altImg",
+		"tutorial",
 	]);
 </script>

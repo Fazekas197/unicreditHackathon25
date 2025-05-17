@@ -1,6 +1,7 @@
 <template>
 	<div>
 		<Hero
+			tutorial="true"
 			bg-img="/images/fraudaBg.png"
 			alt-img="Siguranta Online Background"
 			title="Siguranță Online – Fii cu un pas înaintea pericolelor digitale"
