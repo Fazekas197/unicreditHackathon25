@@ -55,5 +55,38 @@
 				</NuxtLink>
 			</div>
 		</section>
+
+		<!-- TUTORIAL 2 -->
+		<section class="flex gap-x-10 px-24 py-24 bg-greyBg justify-between">
+			<div class="space-y-3 w-2/4">
+				<h1 class="text-3xl">Mobile Banking UniCredit</h1>
+				<h3 class="text-lg font-extrabold">
+					Siguranță, acces rapid și control total – totul la îndemâna
+					ta.
+				</h3>
+				<p class="text-lg">
+					În acest tutorial interactiv vei învăța cum să identifici
+					Descoperă cum să folosești aplicația UniCredit Mobile
+					Banking simplu și în siguranță. În acest tutorial
+					interactiv, vei învăța pașii esențiali pentru a-ți verifica
+					contul, a efectua plăți și a gestiona cardurile direct de pe
+					telefon, fără complicații.
+				</p>
+				<NuxtLink to="/mobileBanking">
+					<Button
+						second-type="true"
+						text="Învață acum"
+						class="mt-5"
+					/>
+				</NuxtLink>
+			</div>
+			<div>
+				<img
+					src="/images/mbBankingImg.png"
+					alt="Mobile Banking App"
+					class="w-full"
+				/>
+			</div>
+		</section>
 	</div>
 </template>
