@@ -2,7 +2,7 @@
 	<div>
 		<Hero
 			tutorial="true"
-			bg-img="/images/fraudaBg.png"
+			bg-img="/images/FraudaBg.png"
 			alt-img="Siguranta Online Background"
 			title="Siguranță Online – Fii cu un pas înaintea pericolelor digitale"
 			paragraph="Învață să-ți protejezi informațiile personale și banii împotriva celor mai noi amenințări din mediul digital. Phishing-ul nu e o poveste, e o realitate."
@@ -225,7 +225,7 @@
 
 		<Hero
 			title="Simți că informațiile tale ar putea fi fraudate? UniCredit îți oferă siguranță"
-			bg-img="/images/genericBg.png"
+			bg-img="/images/GenericBg.png"
 			alt-img="Generic bg"
 			btn-link="https://www.unicredit.ro/ro/persoane-fizice.html?_gl=1*1fnxdj1*_up*MQ..*_gs*MQ..&gclid=CjwKCAjw56DBBhAkEiwAaFsG-vE4oUntJLgpnB-P7d5RT05wewRVd67XM41yUN5D7y94ZiyFfIb_qBoCZ-wQAvD_BwE#home"
 			btn-text="Creează-ți Cont"
