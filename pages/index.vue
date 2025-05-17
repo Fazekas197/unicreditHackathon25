@@ -9,7 +9,7 @@
 				alt="Home Page Background"
 				class="w-full"
 			/>
-			<div class="text-white absolute top-0 mx-24 my-24 space-y-4 w-2/5">
+			<div class="text-white absolute top-0 mx-24 my-24 space-y-9 w-2/5">
 				<h1 class="text-4xl font-extrabold">
 					UniCredit Learning - Simplu. Clar. Pentru toți.
 				</h1>
@@ -23,6 +23,37 @@
 				<Button text="Explorează acum" />
 			</div>
 			<div class="h-2.5 bg-brand"></div>
+		</section>
+
+		<!-- TUTORIAL 1 -->
+		<section class="flex gap-x-10 mx-24 my-24">
+			<div>
+				<img
+					src="/images/phishingImg.png"
+					alt="Atac Hacker"
+					class="w-full"
+				/>
+			</div>
+			<div class="space-y-3 w-2/5">
+				<h1 class="text-3xl">Ghid împotriva înșelătoriilor</h1>
+				<h3 class="text-lg font-extrabold">
+					Fii informat. Fii vigilent. Fii în siguranță.
+				</h3>
+				<p class="text-lg">
+					În acest tutorial interactiv vei învăța cum să identifici
+					încercările de fraudă online, prin exemple concrete și un
+					scurt exercițiu practic. Vei avea ocazia să testezi
+					diferența dintre comunicările reale și cele false, într-un
+					mod simplu și clar.
+				</p>
+				<NuxtLink to="/phishing">
+					<Button
+						second-type="true"
+						text="Învață acum"
+						class="mt-5"
+					/>
+				</NuxtLink>
+			</div>
 		</section>
 	</div>
 </template>

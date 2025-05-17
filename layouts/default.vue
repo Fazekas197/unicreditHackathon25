@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<Header />
-		<div class="h-lvh">
+		<div class="min-h-lvh">
 			<slot></slot>
 		</div>
 		<Footer />
