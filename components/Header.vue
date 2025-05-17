@@ -24,7 +24,7 @@
 			</NuxtLink>
 		</div>
 		<div class="text-black">
-			<NuxtLink to="#footer" class="flex flex-col items-center gap-y-2">
+			<NuxtLink to="/team" class="flex flex-col items-center gap-y-2">
 				<img src="/icons/contact.svg" class="h-6" alt="diamond icon" />
 				<p class="font-extrabold">CONTACT</p>
 			</NuxtLink>
