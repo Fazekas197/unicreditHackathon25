@@ -9,18 +9,18 @@
 		<div class="text-black flex gap-x-10">
 			<NuxtLink to="/phishing" class="flex flex-col items-center gap-y-2">
 				<img src="/icons/diamond.svg" class="h-6" alt="diamond icon" />
-				<p class="font-extrabold">ANTI-FRAUDĂ</p>
+				<p>SIGURANȚĂ ONLINE</p>
 			</NuxtLink>
 			<NuxtLink
 				to="/mobileBanking"
 				class="flex flex-col items-center gap-y-2"
 			>
 				<img src="/icons/mobile.svg" class="h-6" alt="diamond icon" />
-				<p class="font-extrabold">MOBILE BANKING</p>
+				<p>MOBILE BANKING</p>
 			</NuxtLink>
 			<NuxtLink to="/edFin" class="flex flex-col items-center gap-y-2">
 				<img src="/icons/money.svg" class="h-6" alt="diamond icon" />
-				<p class="font-extrabold">EDUCAȚIE FINANCIARĂ</p>
+				<p>EDUCAȚIE FINANCIARĂ</p>
 			</NuxtLink>
 		</div>
 		<div class="text-black">
