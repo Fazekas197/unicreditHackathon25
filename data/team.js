@@ -34,7 +34,7 @@ export const team = [
 	{
 		link: "https://www.linkedin.com/in/mariazugravu5",
 		nume: "Zugravu Maria Raluca",
-		email: "",
+		email: "mariazugravu2005@gmail.com",
 		poza: "team/maria.jpg",
 	},
 ];

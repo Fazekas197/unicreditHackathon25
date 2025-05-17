@@ -15,7 +15,7 @@
 				id="start"
 				class="bg-blackBg text-white space-y-15 px-24 py-24"
 			>
-				<h1 class="text-4xl text-center">
+				<h1 class="text-4xl">
 					Este sau nu phishing? - Testează-ți cunoștințele
 				</h1>
 				<FinQuiz />
@@ -49,6 +49,33 @@
 					(dobândă + alte costuri).
 				</p>
 			</div>
+		</section>
+
+		<section class="px-24 py-24">
+			<h1 class="pb-10 text-3xl text-center w-full">
+				Ce tipuri de credit oferă UniCredit?
+			</h1>
+			<USeparator class="my-5" />
+			<div class="text-lg space-y-3">
+				<p class="font-extrabold">Credit de nevoi personale</p>
+				<p>
+					pentru cheltuieli urgente: frigider nou, reparații, vacanță
+				</p>
+			</div>
+			<USeparator class="my-5" />
+			<div class="text-lg space-y-3">
+				<p class="font-extrabold">Credit ipotecar</p>
+				<p>pentru cumpărarea unei locuințe</p>
+			</div>
+			<USeparator class="my-5" />
+			<div class="text-lg space-y-3">
+				<p class="font-extrabold"> Credit de refinanțare</p>
+				<p>
+					dacă vrei să înlocuiești un credit vechi cu unul mai
+					avantajos
+				</p>
+			</div>
+			<USeparator class="my-5" />
 		</section>
 	</div>
 </template>

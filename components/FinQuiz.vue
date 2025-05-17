@@ -1,15 +1,20 @@
 <template>
 	<div class="space-y-4" v-if="currentIndex < finQuiz.length">
-		<p class="text-xl">{{ currentQuestion.question }}</p>
-		<div class="text-lg">
+		<p class="text-3xl">{{ currentQuestion.question }}</p>
+		<div>
 			<URadioGroup
 				v-model="userOption"
 				:items="currentQuestion.options"
+				:ui="{
+					wrapper: 'space-y-4',
+					container: 'flex items-center space-x-3',
+					label: 'text-white text-lg leading-none',
+				}"
 			/>
 		</div>
-		<p>{{ rezultat }}</p>
-		<div class="flex space-x-2">
-			<Button @click="validate" text="Corectează" />
+		<p class="text-lg">{{ rezultat }}</p>
+		<div class="flex space-x-10">
+			<Button @click="validate" text="Verifică" />
 			<Button
 				v-if="rezultat"
 				@click="nextQuestion"
