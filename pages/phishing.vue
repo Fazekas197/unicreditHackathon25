@@ -222,6 +222,14 @@
 				</audio>
 			</div>
 		</section>
+
+		<Hero
+			title="Simți că informațiile tale ar putea fi fraudate? UniCredit îți oferă siguranță"
+			bg-img="/images/genericBg.png"
+			alt-img="Generic bg"
+			btn-link="https://www.unicredit.ro/ro/persoane-fizice.html?_gl=1*1fnxdj1*_up*MQ..*_gs*MQ..&gclid=CjwKCAjw56DBBhAkEiwAaFsG-vE4oUntJLgpnB-P7d5RT05wewRVd67XM41yUN5D7y94ZiyFfIb_qBoCZ-wQAvD_BwE#home"
+			btn-text="Creează-ți Cont"
+		/>
 	</div>
 </template>
 

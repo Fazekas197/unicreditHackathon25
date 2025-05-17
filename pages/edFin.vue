@@ -24,7 +24,7 @@
 
 		<section class="flex gap-x-10 px-24 py-24">
 			<div>
-				<img src="/images/house.png" alt="Atac Hacker" class="w-full" />
+				<img src="/images/House.png" alt="Atac Hacker" class="w-full" />
 			</div>
 			<div class="space-y-3 w-2/5">
 				<h1 class="text-3xl">Ce este un credit?</h1>
@@ -156,6 +156,7 @@
 			btn-link="https://www.unicredit.ro/ro/persoane-fizice.html#credite"
 			btn-text="Crează-ți un credit acum"
 			bg-img="/images/genericBg.png"
+			alt-img="Generic Bg Image"
 		/>
 	</div>
 </template>
