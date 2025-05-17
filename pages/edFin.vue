@@ -24,7 +24,7 @@
 
 		<section class="flex gap-x-10 px-24 py-24">
 			<div>
-				<img src="/images/edFinBg.png" alt="House Img" class="w-full" />
+				<img src="/images/house.png" alt="House Img" class="w-full" />
 			</div>
 			<div class="space-y-3 w-2/5">
 				<h1 class="text-3xl">Ce este un credit?</h1>
