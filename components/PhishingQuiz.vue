@@ -1,38 +1,54 @@
 <template>
-	<div class="space-y-10" v-if="!finished">
-		<div>
+	<div v-if="!finished">
+		<div class="space-y-10 flex flex-col items-center w-1/2 m-auto">
+			<p class="text-2xl">{{ index + 1 }} / {{ quizzes.length }}</p>
+
 			<img
 				:src="quizzes[index].test"
 				alt="poza cu phishing"
-				class="w-3/12"
+				class="w-1/2"
 			/>
 
-			<div class="space-x-10">
-				<Button
-					text="Este Phishing"
-					@click="validate(true, quizzes[index])"
-				/>
-				<Button
-					text="Nu Este Phishing"
-					@click="validate(false, quizzes[index])"
-				/>
-				<Button
-					v-if="quizzes[index].result"
-					text="Următoarea întrebare"
-					@click="next(quizzes[index])"
-				/>
+			<div>
+				<div class="space-x-10">
+					<Button
+						text="Este Phishing"
+						class="bg-brand"
+						icon="material-symbols:cancel"
+						@click="validate(true, quizzes[index])"
+					/>
+					<Button
+						text="Nu Este Phishing"
+						class="bg-green-800"
+						icon="icon-park-solid:correct"
+						@click="validate(false, quizzes[index])"
+					/>
+				</div>
+				<div class="text-center mt-4">
+					<Button
+						v-if="quizzes[index].result"
+						text="Următoarea întrebare"
+						@click="next(quizzes[index])"
+					/>
+				</div>
 			</div>
 
-			<div v-if="quizzes[index].result" class="mt-2">
+			<div v-if="quizzes[index].result" class="mt-2 text-center text-2xl">
 				{{ quizzes[index].result }}
 			</div>
 		</div>
 	</div>
 
 	<!-- Final screen -->
-	<div v-else class="space-y-5">
-		<p class="text-xl">✅ Ai terminat testul!</p>
-		<p class="text-lg">Scor final: {{ score }} / {{ quizzes.length }}</p>
+	<div v-else class="space-y-5 text-center">
+		<p class="text-2xl">✅ Ai terminat testul!</p>
+		<p class="text-xl">
+			Ai
+			{{
+				Math.round(((quizzes.length - score) / quizzes.length) * 100)
+			}}
+			% sa fi păcălit
+		</p>
 		<Button text="Reîncearcă testul" @click="restart" />
 	</div>
 </template>

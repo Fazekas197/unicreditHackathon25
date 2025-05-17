@@ -10,8 +10,155 @@
 			btn-link="#start"
 		/>
 
-		<section id="start">
+		<section
+			id="start"
+			class="bg-blackBg text-white space-y-15 px-24 py-24"
+		>
+			<h1 class="text-4xl text-center">
+				Este sau nu phishing? - Testează-ți cunoștințele
+			</h1>
 			<PhishingQuiz />
+		</section>
+
+		<section class="flex gap-x-10 px-24 py-24">
+			<div>
+				<img
+					src="/images/processing.png"
+					alt="Procesarea Platei"
+					class="w-full"
+				/>
+			</div>
+			<div class="space-y-3 w-2/5">
+				<h1 class="text-3xl">Ce este phishing-ul?</h1>
+				<p class="text-lg">
+					<b class="font-extrabold">Scopul phishing-ului:</b> Furt de
+					bani, identitate sau compromiterea securității contului tău.
+				</p>
+				<p class="text-lg">
+					Phishing-ul reprezintă
+					<b class="font-extrabold">o metodă de fraudă</b> prin care
+					atacatorii încearcă să obțină
+					<b class="font-extrabold">date personale</b> (parole, coduri
+					PIN, date bancare) prin
+					<b class="font-extrabold">mesaje false</b> care par a fi
+					trimise de instituții de încredere, cum ar fi bănci,
+					furnizori de servicii sau chiar autorități.
+				</p>
+			</div>
+		</section>
+
+		<section class="px-24 py-24">
+			<h1 class="pb-10 text-3xl text-center w-full">
+				Cum recunoaștem un email de tip phishing?
+			</h1>
+			<USeparator class="my-5" />
+			<div class="text-lg space-y-3">
+				<p class="font-extrabold">
+					Adrese de e-mail neobișnuite sau suspecte
+				</p>
+				<p>
+					Exemple: support@unicredit-secure-login.info,
+					info-banca@security-alert.net
+				</p>
+			</div>
+			<USeparator class="my-5" />
+			<div class="text-lg space-y-3">
+				<p class="font-extrabold">Mesaje cu un ton de urgență falsă</p>
+				<p>
+					Formulări precum: „Contul dumneavoastră va fi suspendat!”,
+					„Este necesară confirmarea imediată a datelor!”
+				</p>
+			</div>
+			<USeparator class="my-5" />
+			<div class="text-lg space-y-3">
+				<p class="font-extrabold">
+					Link-uri înșelătoare, mascate sub denumiri legitime dar care
+					redirecționează către site-uri frauduloase
+				</p>
+				<p>
+					Exemplu: un link care pare a fi unicredit.ro, dar duce către
+					un domeniu necunoscut.
+				</p>
+			</div>
+			<USeparator class="my-5" />
+			<div class="text-lg space-y-3">
+				<p class="font-extrabold">
+					Erori gramaticale sau exprimări nefiresc formulate
+				</p>
+				<p>
+					Acestea nu reflectă standardele profesionale ale
+					instituțiilor oficiale
+				</p>
+			</div>
+			<USeparator class="my-5" />
+		</section>
+
+		<section class="px-24 py-24">
+			<h1 class="pb-10 text-3xl text-center w-full">
+				Ce trebuie să faci pentru a te proteja?
+			</h1>
+			<div class="flex justify-around">
+				<div class="space-y-5">
+					<img
+						src="/icons/toDoIcon.svg"
+						alt="To Do Icon"
+						class="m-auto"
+					/>
+					<div class="text-lg space-y-5">
+						<p class="font-extrabold">
+							Verifică întotdeauna adresa de e-mail a
+							expeditorului
+						</p>
+						<p>
+							<b class="font-extrabold"
+								>Nu accesa link-uri dubioase</b
+							>, verifică-le înainte
+						</p>
+						<p>
+							<b class="font-extrabold"
+								>Nu furniza date personale</b
+							>
+							sau bancare prin e-mail/SMS
+						</p>
+						<p>
+							În caz de suspiciune,
+							<b class="font-extrabold"
+								>contactează direct banca la numărul oficial</b
+							>
+						</p>
+					</div>
+				</div>
+				<div class="space-y-5">
+					<img
+						src="/icons/toDoIcon.svg"
+						alt="To Do Icon"
+						class="m-auto"
+					/>
+					<div class="text-lg space-y-5">
+						<p class="font-extrabold">
+							Verifică întotdeauna adresa de e-mail a
+							expeditorului
+						</p>
+						<p>
+							<b class="font-extrabold"
+								>Nu accesa link-uri dubioase</b
+							>, verifică-le înainte
+						</p>
+						<p>
+							<b class="font-extrabold"
+								>Nu furniza date personale</b
+							>
+							sau bancare prin e-mail/SMS
+						</p>
+						<p>
+							În caz de suspiciune,
+							<b class="font-extrabold"
+								>contactează direct banca la numărul oficial</b
+							>
+						</p>
+					</div>
+				</div>
+			</div>
 		</section>
 	</div>
 </template>
