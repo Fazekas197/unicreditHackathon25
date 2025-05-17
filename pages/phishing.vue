@@ -160,6 +160,68 @@
 				</div>
 			</div>
 		</section>
+
+		<section class="flex gap-x-10 px-24 py-24">
+			<div>
+				<img
+					src="/images/spoofing.png"
+					alt="Procesarea Platei"
+					class="w-full"
+				/>
+			</div>
+			<div class="space-y-3 w-2/5">
+				<h1 class="text-3xl">Ce este spoofing-ul?</h1>
+				<p class="text-lg">
+					Spoofingul este o tehnică de fraudă prin care infractorii
+					cibernetici își falsifică identitatea pentru a părea că sună
+					sau trimit mesaje din partea unei instituții de încredere,
+					cum ar fi banca. Pot apărea pe ecranul telefonului dvs. cu
+					numărul real al băncii sau cu un nume cunoscut. Acest lucru
+					NU înseamnă că apelul este autentic.
+				</p>
+			</div>
+		</section>
+
+		<section class="px-24 py-24">
+			<h1 class="pb-10 text-3xl text-center w-full">
+				Cum recunoaștem spoofing?
+			</h1>
+			<USeparator class="my-5" />
+			<div class="text-lg space-y-3">
+				<p class="font-extrabold">
+					Număr cunoscut sau oficial, dar vocea sau tonul sună urgent
+					sau amenințător
+				</p>
+			</div>
+			<USeparator class="my-5" />
+			<div class="text-lg space-y-3">
+				<p class="font-extrabold">
+					Ți se cere să oferi informații sensibile (PIN, coduri OTP,
+					date personale).
+				</p>
+			</div>
+			<USeparator class="my-5" />
+			<div class="text-lg space-y-3">
+				<p class="font-extrabold">
+					Se prezintă drept „banca”, „poliția”, „ANAF” sau altă
+					autoritate și insistă să acționezi rapid.
+				</p>
+			</div>
+			<USeparator class="my-5" />
+			<div class="text-lg space-y-3">
+				<p class="font-extrabold">
+					Nu îți dau timp să verifici, spun că e o situație „de
+					urgență” sau „confidențială”.
+				</p>
+			</div>
+			<USeparator class="my-5" />
+			<div>
+				<h1 class="text-center text-2xl mt-16">Exemplu de Spoofing</h1>
+				<audio controls class="w-full mt-5">
+					<source src="/voice/vishing.mp3" type="audio/mpeg" />
+				</audio>
+			</div>
+		</section>
 	</div>
 </template>
 
